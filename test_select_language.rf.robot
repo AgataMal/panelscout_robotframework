@@ -7,7 +7,7 @@ ${LOGIN URL}            https://scouts-test.futbolkolektyw.pl/en
 ${BROWSER}              Chrome
 ${LANGUAGEDROPDOWN}     xpath = //form//child::div[@role="button"]
 ${POLISHTRANSLATED}     xpath = //li[@role="option" and text()="Polski"]
-${BUTTONTRANSLATED}       xpath = //form//button[@type="submit" and ./span[contains(text(), ZALOGUJ)]]
+${BUTTONTRANSLATED}     xpath = //form//button[@type="submit" and ./span[contains(text(), ZALOGUJ)]]
 
 
 
